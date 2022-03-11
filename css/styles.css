@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.centeredText {
+  position: absolute;
+  top: 27%;
+  width: 100%;
+  text-align: center;
+}
+
+/* #logo{
+    position: absolute;
+    bottom: 70%;
+    width: 100%;
+    text-align: center;
+} */
+
+#header1 {
+  font-weight: 900;
+  padding: 30;
+}
+
+#aboutUs {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
