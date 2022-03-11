@@ -30,6 +30,11 @@
     margin: 20px;
 }
 
+.img-fluid {
+    max-width: 100%; 
+    height: auto;
+
+}
 #servicesInfo{
     position: relative;
     text-align: center;
@@ -44,4 +49,10 @@
 #whatWeDo {
     padding: 30px ;
 }
+
+#portfolioInfo {
+    padding: 30px;
+}
+
+
 
