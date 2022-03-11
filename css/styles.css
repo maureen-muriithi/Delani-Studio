@@ -1,4 +1,4 @@
-.container {
+#introductionInfo {
   position: relative;
   text-align: center;
   color: white;
@@ -28,5 +28,20 @@
     text-align: center;
     padding: 30px;
     margin: 20px;
+}
+
+#servicesInfo{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+#header5{
+    text-align: center;
+}
+
+#whatWeDo {
+    padding: 30px ;
 }
 
