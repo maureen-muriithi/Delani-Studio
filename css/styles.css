@@ -42,7 +42,7 @@
     font-weight: 900;
 }
 
-#header5{
+#header5, #header6 {
     text-align: center;
 }
 
@@ -54,5 +54,18 @@
     padding: 30px;
 }
 
+#contactInfo{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
 
+/* #formInfo{
+    text-align: center;
+    width 50%
+} */
 
+#socialIcons{
+    text-align: center;
+}
