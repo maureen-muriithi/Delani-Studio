@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="https://fonts.google.com/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
   </head>
+
   <body>
-    <div class="container" id="introductionInfo">
+    <div class="container" id="introContainer">
       <img src="images/backgrounds/h_img.jpg" alt="Step up" style="width: 100%" />
       <div class="centeredText">
         <div id="logo">
@@ -30,7 +31,8 @@
         <img src="images/mouse_click.png" alt="" />
       </div>
     </div>
-    <div id="aboutUs">
+
+    <div id="aboutUsContainer">
       <h5 id="header3">ABOUT US</h5>
       <p> When you work with us, you are part of the team of committed collaborators. All aspects of our software development process are intergrated, iterative and agile. </p>
       <p> Our approach unifies design, development and product management to create exceptional products. </p>
@@ -38,9 +40,8 @@
       <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
 
-    <div class="container" id="servicesInfo">
+    <div class="container" id="servicesContainer">
         <img src="images/backgrounds/s_image.jpg" class="img-fluid" alt="A step up image">
-        <!-- <img src="images/backgrounds/s_image.jpg" alt="Step up" style="width: 100%" /> -->
         <div class="centeredText" id="servicesProvided">
             <h2 id="header4">SERVICES</h2>
             <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
@@ -49,98 +50,93 @@
         </div>
     </div>
 
-    <div class="container" id="whatWeDo">
-        <h2 id="header5"> WHAT WE DO</h2>
+    <div class="container" id="whatWeDo" >
+        <h4 id="header4">WHAT WE DO</h4>
         <div class="row">
-          <div class="col-md-4">
-            <div id="design">
-              <h2 class="title">DESIGN</h2>
-              <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+          <div class="col-md-4" id="design">
+            <div class="designImage">
+              <img id="designImage" src="images/services_icons/design_icon.png" alt="Design icon.">
             </div>
-            <div id="designImage">
-              <img src="images/services_icons/design_icon.png" alt="design">
               <p>DESIGN</p>
-            </div>
+              <p class="hiddenInfo" id="designInfo">
+                  Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                  Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
-          <div class="col-md-4">
-            <div id="development">
-              <h2 class="title">DEVELOPMENT</h2>
-              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-              <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          <div class="col-md-4" id="development">
+            <div class="devImage">
+                <img id="devImage" src="images/services_icons/dev_icon.png" alt="Development icon.">
             </div>
-            <div id="development-image">
-              <img src="images/services_icons/dev_icon.png" alt="development">
-              <P>DEVELOPMENT</P>
-            </div>
+              <p>DEVELOPMENT</p>
+              <p class="hiddenInfo" id="devInfo">
+                  All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                  They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
           </div>
-          <div class="col-md-4">
-            <div id="product">
-              <h2 class="title">PRODUCT MANAGEMENT</h2>
-              <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
-                <p>The iterative process allows for changes as business requirements evolve.</p>
-            </div>
-            <div id="product-image">
-              <img src="images/services_icons/product_icon.png" alt="products">
-              <P>PRODUCT MANAGEMENT</P>
-            </div>
+          <div class="col-md-4" id="productManagement">
+            <div class="productImage">
+                <img id="productImage" src="images/services_icons/product_icon.png" alt="Delani's product.">
+            </div>  
+              <p>PRODUCT MANAGEMENT</p>
+              <p class="hiddenInfo" id="productInfo">
+                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                    This iterative process allows for changes as business requirements evolve.</p>
           </div>
         </div>
     </div>
+    
     <div class="container" id="portfolioInfo">
         <div class="row" id="portfolio1">
-            <div class="col-md-3" id="workImage1">
-              <img src="images/portfolio/work1.jpg" alt="work1">
+            <div class="col-md-3" >
+              <img id="workImage1" src="images/portfolio/work1.jpg" alt="work1">
               <p id="projectName1" class="text">Dark Mode Designs</p>
             </div>
-            <div class="col-md-3" id="workImage2">
-                <img src="images/portfolio/work2.jpg" alt="work2">
+            <div class="col-md-3">
+                <img id="workImage2" src="images/portfolio/work2.jpg" alt="work2">
                 <p id="projectName2" class="text">Branding Deigns</p>
             </div>
-            <div class="col-md-3" id="workImage3">
-                <img src="images/portfolio/work3.jpg" alt="work3">
+            <div class="col-md-3">
+                <img id="workImage3" src="images/portfolio/work3.jpg" alt="work3">
                 <p id="projectName3" class="text">Abstract Designs</p>
             </div>
-            <div class="col-md-3" id="workImage4">
-                <img src="images/portfolio/work4.jpg" alt="work4">
+            <div class="col-md-3">
+                <img id="workImage4" src="images/portfolio/work4.jpg" alt="work4">
                 <p id="projectName4" class="text">Animation Project</p>
             </div>
         </div>
         <div class="row" id="portfolio2">
-            <div class="col-md-3" id="workImage5">
-              <img src="images/portfolio/work5.jpg" alt="work5">
+            <div class="col-md-3" >
+              <img id="workImage5" src="images/portfolio/work5.jpg" alt="work5">
               <p id="projectName5" class="text">Interactive Application</p>
             </div>
-            <div class="col-md-3" id="workImage6">
-                <img src="images/portfolio/work6.jpg" alt="work6">
+            <div class="col-md-3" >
+                <img id="workImage6" src="images/portfolio/work6.jpg" alt="work6">
                 <p id="projectName6" class="text">Calculator Application</p>
             </div>
-            <div class="col-md-3" id="workImage7">
-                <img src="images/portfolio/work7.jpg" alt="work7">
+            <div class="col-md-3">
+                <img id="workImage7" src="images/portfolio/work7.jpg" alt="work7">
                 <p id="projectName7" class="text">Personalised logos</p>
             </div>
-            <div class="col-md-3" id="workImage8">
-                <img src="images/portfolio/work8.jpg" alt="work8">
+            <div class="col-md-3">
+                <img id="workImage8" src="images/portfolio/work8.jpg" alt="work8">
                 <p id="projectName8" class="text">Restuarant Website</p>
             </div>
         </div>
     </div>
     <div class="container-fluid" id="contactInfo">
-        <img src="images/backgrounds/c_image.jpg" alt="Machinery" class="img-fluid" style="width: 100%">
+        <!-- <img src="images/backgrounds/c_image.jpg" alt="Machinery" class="img-fluid"> -->
         
-        <form class="centeredText" id="formInfo">
+        <form id="formInfo">
             <h2 id="header6">CONTACT US</h2>
             <div class="row">
                 <div class="col">
                     <input type="text" class="form-control" classid="inputName" placeholder="Name..." size="50">
                 </div>
                 <div class="col">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email..." value="email">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email..." value="">
                 </div>
             </div>
             <br>
             <div class="form-group">
-                <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+                <textarea class="form-control" type="text" rows="8" id="userMessage" placeholder = "Your message here...."></textarea>
             </div>
             <button id="submtbtn" class="btn btn-primary mb-2 col-md-1" type="submit" >Submit</button>
         </form>
@@ -156,9 +152,10 @@
         <img src="images/social_icons/pinterest.png" alt="pinterest">
         <img src="images/social_icons/flickr.png" alt="flickr">
         <img src="images/social_icons/you_tube.png" alt="youtube">
-        <p>DELANI STUDIO</p>
-        <p>2019</p>
-      </footer>
+        <br>
+        <p id="finPart" >DELANI STUDIO</p>
+        <p >2022</p>
+    </footer>
 
 
 
@@ -179,6 +176,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
 
