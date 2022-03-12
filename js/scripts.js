@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 
 
-$('.submit').click(function (e) {
+$('.submit').submit(function (e) {
     e.preventDefault()
     var userName = $('#inputName').val();
     var userEmail = $('#inputEmail').val();

@@ -11,7 +11,7 @@
 
 .centeredText {
   position: absolute;
-  top: 27%;
+  top: 25%;
   width: 100%;
   text-align: center;
 }
@@ -20,6 +20,17 @@
   font-weight: 900;
   padding: 30;
 }
+
+/* #logoImage{
+    padding-bottom: 30px;
+    position: relative;
+    top: 50%;
+    align-items: center;
+}
+
+#mouseIcon {
+    align-items: baseline;
+} */
 
 #aboutUsContainer {
     text-align: center;
@@ -41,24 +52,42 @@
 
 .hiddenInfo{
     display: none;
+    text-align: center;
+}
+
+.imageTitles {
+    text-align: center;
+    font-weight: bold;
 }
 
 
-#header4, #header5, #header6 {
+#header3, #header4 #header5, #header6 {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+    font-weight: bolder;
 }
 
 #whatWeDo {
     padding: 30px;
+    justify-items: center;
     align-items: center;
+    text-align: center;
 }
 .col-md-4 {
     justify-items: center;
 }
 
 #portfolioInfo {
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:12%;
+    margin-right: 15%; 
+}
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #contactInfo{
@@ -90,6 +119,10 @@ input[type=email] {
     color: white;
 }
 
+.form-control::-webkit-input-placeholder { 
+    color: white; 
+}
+
 textarea[type=text] {
   background:transparent;
   color: white;
@@ -99,8 +132,6 @@ textarea[type=text] {
   position:absolute;
   padding-left: 25%;
 }
-
-
 
 #socialIcons{
     padding-top: 30px;
