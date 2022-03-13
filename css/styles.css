@@ -1,6 +1,7 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 
 #introContainer {
   position: relative;
@@ -26,121 +27,152 @@
     position: relative;
     top: 50%;
     align-items: center;
-}
+} */
 
 #mouseIcon {
     align-items: baseline;
-} */
+    padding-top : 22px;
+    margin-top: 300px;
+    /* padding-bottom: 30px;  */
+}
 
 #aboutUsContainer {
-    text-align: center;
-    padding: 30px;
-    margin: 20px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
 }
 
 .img-fluid {
-    max-width: 100%; 
-    height: auto;
-
-}
-#servicesContainer{
-    position: relative;
-    text-align: center;
-    color: white;
-    font-weight: 900;
+  max-width: 100%;
+  height: auto;
 }
 
-.hiddenInfo{
-    display: none;
-    text-align: center;
+#servicesContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.hiddenInfo {
+  display: none;
+  text-align: center;
 }
 
 .imageTitles {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
-
-#header3, #header4 #header5, #header6 {
-    text-align: center;
-    padding: 20px;
-    font-weight: bolder;
+#header3,
+#header4,
+#header5,
+#header6 {
+  text-align: center !important;
+  padding: 20px;
+  font-weight: bolder;
 }
 
 #whatWeDo {
-    padding: 30px;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
+  padding: 30px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
 }
+
 .col-md-4 {
-    justify-items: center;
+  justify-items: center;
 }
 
 #portfolioInfo {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left:12%;
-    margin-right: 15%; 
-}
-.col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
-}
+  /* padding: 20px; */
+  display: flex;
+  flex-wrap:nowrap;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12%;
+  margin-right: 15%;
 
-#contactInfo{
-    background-image: url("../images/backgrounds/c_image.jpg");
-    background-size:cover;
-    /* position: relative; */
-    text-align: center;
-    /* color: white; */
-    padding: 30px;
 }
 
-/* .Contact-Us {
-  background-image: url(backgrounds/c_image.jpg);
-  background-size:cover;
-  display: cover;
-  padding: 10%;
-} */
-/* form #contact{
-  background-color: rgba(0, 0, 0, 0);
-} */
+.col-md-3 img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
-input[type=text] {
-  background:transparent;
+#prj-work4, #prj-work3, #prj-work2, #prj-work1 {
+  position: relative;
+}
+
+.project-hover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#projectName1, #projectName2, #projectName3, #projectName4, #projectName5, #projectName6, #projectName7, #projectName8 {
+  display: none;
+}
+
+#contactInfo {
+  background-image: url("../images/backgrounds/c_image.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+input[type="text"] {
+  background: transparent;
   color: white;
 }
 
-input[type=email] {
-    background:transparent;
+input[type="email"] {
+  background: transparent;
+  color: white;
+}
+
+textarea[type="text"] {
+    background: transparent;
     color: white;
 }
 
-.form-control::-webkit-input-placeholder { 
-    color: white; 
-}
-
-textarea[type=text] {
-  background:transparent;
+.form-control::-webkit-input-placeholder {
   color: white;
 }
 
-.submit{
-  position:absolute;
+.form-group::-webkit-input-placeholder {
+    color: white;
+}
+
+/* textarea[type="text"] {
+  background: transparent;
+  color: white;
+} */
+
+.submit {
+  position: absolute;
   padding-left: 25%;
 }
 
-#socialIcons{
-    padding-top: 30px;
-    text-align: center;
-    color: black;
+#socialIcons {
+  padding-top: 30px;
+  text-align: center;
+  color: black;
 }
 
 #finPart {
-    padding: 30;
-    color: black;
-    font-size: small;
+  padding-top: 30px;
+  color: black;
+  font-size: small;
 }
