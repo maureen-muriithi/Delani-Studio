@@ -11,14 +11,25 @@
     />
 
     <!-- Bootstrap CSS/ Google fonts CSS/ Customised CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="https://fonts.google.com/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
   </head>
 
   <body>
-    <div class="container" id="introContainer">
-      <img src="images/backgrounds/h_img.jpg" alt="Step up" style="width: 100%" />
+    
+    <!-- Intro part for Delani Studio -->
+    <div class="container-fluid" id="introContainer">
+      <img
+        src="images/backgrounds/h_img.jpg"
+        alt="Step up"
+        style="width: 100%"
+      />
       <div class="centeredText">
         <div id="logo">
           <img id="logoImage" src="images/logo/logo.png" alt="D logo" />
@@ -32,133 +43,218 @@
       </div>
     </div>
 
+    <!-- About Us -->
     <div id="aboutUsContainer">
       <h5 id="header3">ABOUT US</h5>
-      <p> When you work with us, you are part of the team of committed collaborators. All aspects of our software development process are intergrated, iterative and agile. </p>
-      <p> Our approach unifies design, development and product management to create exceptional products. </p>
-      <p> We start each project by understanding your business goals, the user's needs and the product requirements. </p>
+      <p>
+        When you work with us, you are part of the team of committed
+        collaborators. All aspects of our software development process are
+        intergrated, iterative and agile.
+      </p>
+      <p>
+        Our approach unifies design, development and product management to
+        create exceptional products.
+      </p>
+      <p>
+        We start each project by understanding your business goals, the user's
+        needs and the product requirements.
+      </p>
       <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
 
-    <div class="container" id="servicesContainer">
-        <img src="images/backgrounds/s_image.jpg" class="img-fluid" alt="A step up image">
-        <div class="centeredText" id="servicesProvided">
-            <h2 id="header4">SERVICES</h2>
-            <p>Before we sign a contract or write a line of code, our team will spend the neccessary time needed to understand your product vission.</p>
-            <p>The outcome of the scoping session a proposal or high-level statement of work.</p>
-            <p>based on your requirements, we can provide a complete offering or just the piece you need. </p>
-        </div>
+    <!-- Services offered(toggle function) -->
+    <div class="container-fluid" id="servicesContainer">
+      <img
+        src="images/backgrounds/s_image.jpg"
+        class="img-fluid"
+        alt="A step up image"
+      />
+      <div class="centeredText" id="servicesProvided">
+        <h2 id="header4">SERVICES</h2>
+        <p>
+          Before we sign a contract or write a line of code, our team will spend
+          the neccessary time needed to understand your product vission.
+        </p>
+        <p>
+          The outcome of the scoping session a proposal or high-level statement
+          of work.
+        </p>
+        <p>
+          based on your requirements, we can provide a complete offering or just
+          the piece you need.
+        </p>
+      </div>
     </div>
 
-    <div class="container" id="whatWeDo" >
-        <h4 id="header4">WHAT WE DO</h4>
-        <div class="row">
-          <div class="col-md-4" id="design">
-            <div class="designImage">
-              <img id="designImage" src="images/services_icons/design_icon.png" alt="Design icon.">
-            </div>
-              <p class="imageTitles" >DESIGN</p>
-              <p class="hiddenInfo" id="designInfo">
-                  Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                  Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+    <div class="container" id="whatWeDo">
+      <h4 id="header4">WHAT WE DO</h4>
+      <div class="row">
+        <div class="col-md-4" id="design">
+          <div class="designImage">
+            <img
+              id="designImage"
+              src="images/services_icons/design_icon.png"
+              alt="Design icon."
+            />
           </div>
-          <div class="col-md-4" id="development">
-            <div class="devImage">
-                <img id="devImage" src="images/services_icons/dev_icon.png" alt="Development icon.">
-            </div>
-              <p class="imageTitles">DEVELOPMENT</p>
-              <p class="hiddenInfo" id="devInfo">
-                  All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                  They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-          </div>
-          <div class="col-md-4" id="productManagement">
-            <div class="productImage">
-                <img id="productImage" src="images/services_icons/product_icon.png" alt="Delani's product.">
-            </div>  
-              <p class="imageTitles">PRODUCT MANAGEMENT</p>
-              <p class="hiddenInfo" id="productInfo">
-                    Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                    This iterative process allows for changes as business requirements evolve.</p>
-          </div>
+          <p class="imageTitles">DESIGN</p>
+          <p class="hiddenInfo" id="designInfo">
+            Our design practice offers a full range of services including brand
+            strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual
+            design and workflows, solicit user feedback and work with you to
+            make sure what gets built is what is needed.
+          </p>
         </div>
+        <div class="col-md-4" id="development">
+          <div class="devImage">
+            <img
+              id="devImage"
+              src="images/services_icons/dev_icon.png"
+              alt="Development icon."
+            />
+          </div>
+          <p class="imageTitles">DEVELOPMENT</p>
+          <p class="hiddenInfo" id="devInfo">
+            All engineers are fluent in the latest enterprise, mobile and web
+            development technologies. They collaborate with your team to write,
+            and improve code on a daily basis, using proven practices such as
+            test-driven development and pair programming.
+          </p>
+        </div>
+        <div class="col-md-4" id="productManagement">
+          <div class="productImage">
+            <img
+              id="productImage"
+              src="images/services_icons/product_icon.png"
+              alt="Delani's product."
+            />
+          </div>
+          <p class="imageTitles">PRODUCT MANAGEMENT</p>
+          <p class="hiddenInfo" id="productInfo">
+            Planning and development is iterative. Because we are constantly
+            coding and testing, the products we build are always ready to go
+            live. This iterative process allows for changes as business
+            requirements evolve.
+          </p>
+        </div>
+      </div>
     </div>
-    
+
+    <!-- Portfolio (hoover function) -->
     <div class="container" id="portfolioInfo">
       <h4 id="header5">PORTFOLIO</h4>
-        <div class="row" id="portfolio1">
-            <div class="col-md-3" >
-              <img id="workImage1" src="images/portfolio/work1.jpg" alt="work1">
-              <p id="projectName1" class="imageTitles">Dark Mode Designs</p>
-            </div>
-            <div class="col-md-3">
-                <img id="workImage2" src="images/portfolio/work2.jpg" alt="work2">
-                <p id="projectName2" class="imageTitles">Branding Deigns</p>
-            </div>
-            <div class="col-md-3">
-                <img id="workImage3" src="images/portfolio/work3.jpg" alt="work3">
-                <p id="projectName3" class="imageTitles">Abstract Designs</p>
-            </div>
-            <div class="col-md-3">
-                <img id="workImage4" src="images/portfolio/work4.jpg" alt="work4">
-                <p id="projectName4" class="imageTitles">Animation Project</p>
-            </div>
+      <div class="row" id="portfolio1">
+        <div id="prj-work4" class="col-md-3">
+          <img id="workImage4" src="images/portfolio/work4.jpg" alt="work4" />
+          <p id="projectName4" class="imageTitles">Dark Mode Designs</p>
         </div>
-        <div class="row" id="portfolio2">
-            <div class="col-md-3" >
-              <img id="workImage5" src="images/portfolio/work5.jpg" alt="work5">
-              <p id="projectName5" class="imageTitles">Interactive Application</p>
-            </div>
-            <div class="col-md-3" >
-                <img id="workImage6" src="images/portfolio/work6.jpg" alt="work6">
-                <p id="projectName6" class="imageTitles">Calculator Application</p>
-            </div>
-            <div class="col-md-3">
-                <img id="workImage7" src="images/portfolio/work7.jpg" alt="work7">
-                <p id="projectName7" class="imageTitles">Personalised logos</p>
-            </div>
-            <div class="col-md-3">
-                <img id="workImage8" src="images/portfolio/work8.jpg" alt="work8">
-                <p id="projectName8" class="imageTitles">Restuarant Website</p>
-            </div>
+        <div id="prj-work3" class="col-md-3">
+          <img id="workImage3" src="images/portfolio/work3.jpg" alt="work3" />
+          <p id="projectName3" class="imageTitles">Branding Deigns</p>
         </div>
+        <div id="prj-work2" class="col-md-3">
+          <img id="workImage2" src="images/portfolio/work2.jpg" alt="work2" />
+          <p id="projectName2" class="imageTitles">Abstract Designs</p>
+        </div>
+        <div id="prj-work1" class="col-md-3">
+          <img id="workImage1" src="images/portfolio/work1.jpg" alt="work1" />
+          <p id="projectName1" class="imageTitles">Animation Project</p>
+        </div>
+      </div>
+      <div class="row" id="portfolio2">
+        <div id="prj-work5" class="col-md-3">
+          <img id="workImage5" src="images/portfolio/work5.jpg" alt="work5" />
+          <p id="projectName5" class="imageTitles">Interactive Application</p>
+        </div>
+        <div id="prj-work6" class="col-md-3">
+          <img id="workImage6" src="images/portfolio/work6.jpg" alt="work6" />
+          <p id="projectName6" class="imageTitles">Calculator Application</p>
+        </div>
+        <div id="prj-work7" class="col-md-3">
+          <img id="workImage7" src="images/portfolio/work7.jpg" alt="work7" />
+          <p id="projectName7" class="imageTitles">Personalised logos</p>
+        </div>
+        <div id="prj-work8" class="col-md-3">
+          <img id="workImage8" src="images/portfolio/work8.jpg" alt="work8" />
+          <p id="projectName8" class="imageTitles">Restuarant Website</p>
+        </div>
+      </div>
     </div>
     <div class="container-fluid" id="contactInfo">
-        <!-- <img src="images/backgrounds/c_image.jpg" alt="Machinery" class="img-fluid"> -->
-        
-        <form id="formInfo">
-            <h2 id="header6">CONTACT US</h2>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" classid="inputName" placeholder="Name..." size="50">
-                </div>
-                <div class="col">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email..." value="">
-                </div>
-            </div>
-            <br>
-            <div class="form-group">
-                <textarea class="form-control" type="text" rows="8" id="userMessage" placeholder = "Your message here...."></textarea>
-            </div>
-            <button id="submtbtn" class="btn btn-primary mb-2 col-md-1" type="submit" >Submit</button>
-        </form>
-    </div>      
+      <!-- <img src="images/backgrounds/c_image.jpg" alt="Machinery" class="img-fluid"> -->
+
+      <!-- Contact Us Form -->
+      <div class="container">
+      <form
+        id="formInfo"
+        action="https://formspree.io/f/moqrlany"
+        method="post"
+      >
+        <h2 id="header6">CONTACT US</h2>
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              name="userName"
+              placeholder="Name"
+              size="50 !important "
+              required
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail"
+              name="userEmail"
+              placeholder="Email"
+              size="50"
+              required
+            />
+          </div>
+        </div>
+        <br />
+        <div class="form-group">
+          <textarea
+            type="text"
+            id="inputMessage"
+            name="UserMessage"
+            rows="10"
+            cols="150"
+            placeholder="Your message here...."
+            required
+          ></textarea>
+        </div>
+        <button
+          id="submtbtn"
+          class="btn btn-primary mb-2 col-md-1"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    </div>
+
+    <!-- Social media handles -->
     <footer id="socialIcons">
-        <img src="images/social_icons/twitter.png" alt="twitter">
-        <img src="images/social_icons/dribble.png" alt="dribble">
-        <img src="images/social_icons/facebook.png" alt="facebook">
-        <img src="images/social_icons/g_plus.png" alt="g_plus">
-        <img src="images/social_icons/skype.png" alt="skype">
-        <img src="images/social_icons/stumble_upon.png" alt="stumble_upon">
-        <img src="images/social_icons/behance.png" alt="behance">
-        <img src="images/social_icons/pinterest.png" alt="pinterest">
-        <img src="images/social_icons/flickr.png" alt="flickr">
-        <img src="images/social_icons/you_tube.png" alt="youtube">
-        <br>
-        <p id="finPart" >DELANI STUDIO</p>
-        <p >2022</p>
+      <img src="images/social_icons/twitter.png" alt="twitter" />
+      <img src="images/social_icons/dribble.png" alt="dribble" />
+      <img src="images/social_icons/facebook.png" alt="facebook" />
+      <img src="images/social_icons/g_plus.png" alt="g_plus" />
+      <img src="images/social_icons/skype.png" alt="skype" />
+      <img src="images/social_icons/stumble_upon.png" alt="stumble_upon" />
+      <img src="images/social_icons/behance.png" alt="behance" />
+      <img src="images/social_icons/pinterest.png" alt="pinterest" />
+      <img src="images/social_icons/flickr.png" alt="flickr" />
+      <img src="images/social_icons/you_tube.png" alt="youtube" />
+      <br />
+      <p id="finPart">DELANI STUDIO</p>
+      <p>2022</p>
     </footer>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -181,4 +277,3 @@
     <script src="js/scripts.js"></script>
   </body>
 </html>
-
