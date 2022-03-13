@@ -14,6 +14,9 @@ $(document).ready(function(){
         $("#productImage").toggle();
     })
 
+   
+    
+
     // $ ("img#workImage1").hover(function(){
     //     $("img#workImage1").text("p#projectName1");
     //     $("img#workImage1").hover(function(){
@@ -25,17 +28,12 @@ $(document).ready(function(){
 
 
 
-$('.submit').submit(function (e) {
-    e.preventDefault()
+$('#formInfo').submit(function () {
+    // e.preventDefault()
     var userName = $('#inputName').val();
     var userEmail = $('#inputEmail').val();
     var userMessage = $('#inputMessage').val();
-    var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
-
-    if (userName == '' || userEmail == '' || userMessage == '') {
-        alert('Please fill in all fields!');
-    } 
-    else {
-        alert(`Hello +userName+ . We have received your message. Thank you for contacting us.`);
-    }
+     console.log("Message")
+        alert(`Hello ${userName} . We have received your message. Thank you for contacting us.`);
+    
 });
