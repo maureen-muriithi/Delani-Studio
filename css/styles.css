@@ -1,9 +1,8 @@
-
 * {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -21,20 +20,19 @@ body{
   text-align: center;
 }
 
-#header1, #header2{
+#header1,
+#header2 {
   font-weight: 600;
-  
 }
 
-#logoImage{
-    padding-bottom: 50px;  
+#logoImage {
+  padding-bottom: 50px;
 }
 
 #mouseIcon {
-    align-items: baseline;
-    padding-top : 22px;
-    margin-top: 300px;
-    /* padding-bottom: 30px;  */
+  align-items: baseline;
+  padding-top: 22px;
+  margin-top: 300px;
 }
 
 #aboutUsContainer {
@@ -85,12 +83,11 @@ body{
 #portfolioInfo {
   padding: 20px;
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   margin-left: 12%;
   margin-right: 15%;
-
 }
 
 .col-md-3 img {
@@ -98,11 +95,14 @@ body{
   max-height: 100%;
 }
 
-#prj-work4, #prj-work3, #prj-work2, #prj-work1 {
+#prj-work4,
+#prj-work3,
+#prj-work2,
+#prj-work1 {
   position: relative;
 }
 
-.project-hover{
+.project-hover {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -118,7 +118,14 @@ body{
   align-items: center;
 }
 
-#projectName1, #projectName2, #projectName3, #projectName4, #projectName5, #projectName6, #projectName7, #projectName8 {
+#projectName1,
+#projectName2,
+#projectName3,
+#projectName4,
+#projectName5,
+#projectName6,
+#projectName7,
+#projectName8 {
   display: none;
 }
 
@@ -141,23 +148,23 @@ input[type="email"] {
 }
 
 textarea[type="text"] {
-    background: transparent;
-    color: white;
-    margin: 1px solid white;
+  background: transparent;
+  color: white;
+  margin: 1px solid white;
 }
 
 .form-control::-webkit-input-placeholder {
   color: white;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: white;
 }
 
-/* textarea[type="text"] {
+textarea[type="text"] {
   background: transparent;
   color: white;
-} */
+}
 
 .submit {
   position: absolute;

@@ -1,7 +1,7 @@
 ### DELANI STUDIO
 
 > A website for the landing page of Delani Studio.
-> Live demo [ ]
+> Live demo [https://maureen-muriithi.github.io/Delani-Studio/ ]
 
 ### Project Contributor
 
@@ -17,8 +17,8 @@
 - [License](#license)
 
 #### General Information
-This project is a web application for Delani studios that displays information about the services it provides, as well as studio information, a portfolio area, and a form for users to express messages and concerns to Delani studios.
 
+This project is a web application for Delani studios that displays information about the services it provides, as well as studio information, a portfolio area, and a form for users to express messages and concerns to Delani studios.
 
 #### Technologies Used
 
@@ -34,6 +34,7 @@ This project is a web application for Delani studios that displays information a
 I have no any known bugs.
 
 #### Setup Requirements / Installation
+
 - A lapto, tab or phone
 - click this link and open it with your preferred browser
 - Input your name, email and message.
@@ -46,4 +47,3 @@ Created by [@maureen-muriithi] (moh2wanja@gmail.com) - feel free to contact me!
 #### License
 
 This project is open source and available under the [MIT License] (Copyright (c) 2019 Delani Studio.
-
