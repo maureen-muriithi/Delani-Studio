@@ -1,4 +1,4 @@
-### Ghananian-day-naming system
+### DELANI STUDIO
 
 > A website for the landing page of Delani Studio.
 > Live demo [ ]
