@@ -140,6 +140,7 @@ body {
 #contactInfo {
   background-image: url("../images/backgrounds/c_image.jpg");
   background-size: cover;
+  display: cover;
   text-align: center;
   color: white;
 }
@@ -160,6 +161,10 @@ textarea[type="text"] {
   margin: 1px solid white;
 }
 
+form #contact{
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .form-control::-webkit-input-placeholder {
   color: white;
 }
@@ -171,7 +176,6 @@ textarea[type="text"] {
 .submit {
   position: absolute; 
   padding-left: 25%;
-  
 }
 
 #socialIcons {
