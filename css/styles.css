@@ -1,7 +1,11 @@
+
 * {
   box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+}
 
 #introContainer {
   position: relative;
@@ -139,14 +143,15 @@ input[type="email"] {
 textarea[type="text"] {
     background: transparent;
     color: white;
+    margin: 1px solid white;
 }
 
 .form-control::-webkit-input-placeholder {
   color: white;
 }
 
-.form-group::-webkit-input-placeholder {
-    color: white;
+::-webkit-input-placeholder{
+  color: white;
 }
 
 /* textarea[type="text"] {
