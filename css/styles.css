@@ -1,4 +1,4 @@
-
+@import url();
 * {
   box-sizing: border-box;
 }
@@ -90,7 +90,10 @@ body{
   justify-content: center;
   margin-left: 12%;
   margin-right: 15%;
+}
 
+#portfolio1{
+  padding-bottom: 10px;
 }
 
 .col-md-3 img {
@@ -127,7 +130,6 @@ body{
   background-size: cover;
   text-align: center;
   color: white;
-  padding: 30px;
 }
 
 input[type="text"] {
@@ -138,12 +140,12 @@ input[type="text"] {
 input[type="email"] {
   background: transparent;
   color: white;
+  
 }
 
 textarea[type="text"] {
     background: transparent;
     color: white;
-    margin: 1px solid white;
 }
 
 .form-control::-webkit-input-placeholder {
